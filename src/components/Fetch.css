@@ -1,0 +1,101 @@
+.ip-form {
+    display: flex;
+    justify-content: center;
+}
+
+.ip-form input {
+    padding: 1rem;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 15px 0 0 15px;
+    font-size: 16px;
+}
+
+.ip-form button {
+    cursor: pointer;
+    background-color: black;
+    background-image: url(/images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    height: 60px;
+    width: 45px;
+    border-radius: 0 15px 15px 0;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    width: 80vw;
+    margin-inline: auto;
+    padding: 1.5rem;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 10;
+    position: relative;
+    top: 40px;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.info-tag {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: gray;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+.info-data {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.border-right {
+    padding: 0.5rem;
+    margin: auto 0;
+    height: 80%;
+    border-right: 1px solid rgba(93, 91, 91, 0.38);
+}
+
+.last-child {
+    height: 65%;
+}
+
+@media (max-width: 850px){
+    .ip-form{
+        margin: 1.5rem;
+        min-width: 330px;
+    }
+    .ip-form input {
+        padding: 1.5rem;
+
+    }
+    .ip-form button {
+        height: 70px;
+        width: 70px;
+    }
+    .display-grid {
+        grid-template-columns: auto;
+        text-align: center;
+        min-width: 330px;
+        top: 0;
+        gap: 10px;
+    }
+
+    .border-right {
+        border-right: none;
+    }    
+    .info-data {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px){
+    .info-data {
+        font-size: 18px;
+    }
+}
