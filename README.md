@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ipaddresstracker-solution-vite-leafletreact-spiffy-DxSHoKrR0p)
 - Live Site URL: [Add live site URL here](https://main--papaya-cheesecake-2b5770.netlify.app/)
 
 ## My process
