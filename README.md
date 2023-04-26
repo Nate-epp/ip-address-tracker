@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://main--papaya-cheesecake-2b5770.netlify.app/))
+- Live Site URL: [Add live site URL here](https://main--papaya-cheesecake-2b5770.netlify.app/))
 
 ## My process
 
@@ -62,7 +62,7 @@ If chance arises, I will try tailwindcss on this.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Nate-epp)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/noppawat-eakpornpith-9664b4180/))
+<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Frontend Mentor - [@Nate-epp](https://www.frontendmentor.io/profile/Nate-epp)
+- LinkedIn - [@Noppawat-Eakpornpith](https://www.linkedin.com/in/noppawat-eakpornpith-9664b4180/)
 
