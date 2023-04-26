@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://main--papaya-cheesecake-2b5770.netlify.app/))
+- Live Site URL: [Add live site URL here](https://main--papaya-cheesecake-2b5770.netlify.app/)
 
 ## My process
 
