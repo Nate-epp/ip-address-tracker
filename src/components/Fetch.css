@@ -65,6 +65,11 @@
     height: 65%;
 }
 
+.hide-btn {
+    position: absolute;
+    visibility: hidden;
+}
+
 @media (max-width: 850px){
     .ip-form{
         margin: 1.5rem;
@@ -84,6 +89,7 @@
         min-width: 330px;
         top: 0;
         gap: 10px;
+        transition: all 1s ease;
     }
 
     .border-right {
@@ -98,4 +104,32 @@
     .info-data {
         font-size: 18px;
     }
+    .hide-btn {
+        visibility: visible;
+        position: absolute;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 30%;
+        /* top: 190px; */
+        left: 0;
+        right: 0;
+        top: 190px;
+        margin-inline: auto;
+        z-index: 20;
+        background-color: #444;
+        color: #ddd;
+        font-weight: 500;
+    }
+    .hide-btn:active {
+        transform: translateY(2px);
+        transition: transform 1 ease-in;
+    }
+    .display-grid.hide {
+        transform: translateY(-15px);
+        opacity: 0;
+        transition: all 0.5s ease-in;
+    }
+
 }

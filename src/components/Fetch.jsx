@@ -7,6 +7,13 @@ import './Fetch.css'
 function Fetch({ipDataHandler, ipData}) {
 
   const inputRef = useRef()
+  const [hideInfo, setHideInfo] = useState(false)
+
+  const hideHandler = () => {
+    setHideInfo(!hideInfo)
+    console.log(hideInfo)
+  }
+
   const fetchIpData = (e) => {
     e.preventDefault()
     const value = inputRef.current.value
@@ -39,21 +46,23 @@ function Fetch({ipDataHandler, ipData}) {
             <input ref={inputRef} placeholder='Search for any IP address or domain' />
             <button type='submit' ></button>
         </form>
-        <div className='display-grid'>
-            <div className='border-right'>
+        <button onClick={hideHandler} className='hide-btn'>{hideInfo? `Show Info` : 'Hide Info'}</button>
+        <div className={`display-grid ${hideInfo? 'hide' : ''}`}>
+            
+            <div className={`border-right`}>
                 <p className='info-tag'>IP ADDRESS</p>
                 <span className='info-data'>{ipData.ip}</span>
             </div>
        
-            <div className='border-right'>
+            <div className={`border-right`}>
                 <p className='info-tag'>LOCATION</p>
                 <span className='info-data'>{`${ipData.location.city}, ${ipData.location.region},  ${ipData.location.country} ${ipData.location.postalCode}`}</span>
             </div>
-            <div className='border-right'>
+            <div className={`border-right`}>
                 <p className='info-tag'>TIMEZONE</p>
                 <span className='info-data'>UTC {ipData.location.timezone}</span>
             </div>
-            <div className='last-child'>
+            <div className={`last-child`}>
                 <p className='info-tag'>ISP</p>
                 <span className='info-data'>{ipData.isp}</span>
             </div>
