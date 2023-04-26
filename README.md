@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Ip-address-tracker](./ip-tracker-screenshot.png)
+![Ip-address-tracker](./public/ip-tracker-screenshot.png)
 
 
 ### Links
